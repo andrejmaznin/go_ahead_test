@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "go-ahead-test"
+version = "0.1.0"
+description = ""
+authors = ["andrejmaznin <andrejmaznin@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "go_ahead_test" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+field = "^0.2.0"
+pydantic = "^1.10.8"
+databases = "^0.7.0"
+fastapi = "^0.95.2"
+alembic = "^1.11.1"
+python-dotenv = "^1.0.0"
+asyncpg = "^0.27.0"
+greenlet = "^2.0.2"
+psycopg2 = "^2.9.6"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
