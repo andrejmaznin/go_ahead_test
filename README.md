@@ -7,7 +7,12 @@ poetry install
 ```
 
 The task has been solved using Python 3 and PostgreSQL, therefore, to test it PostgreSQL is required <br>
-You can provide authentication data in the **.env** file (first create it) following the example from the **.env.example** file 
+You can provide authentication data in the **.env** file (first create it) following the example from the **.env.example** file <br>
+
+To update database schema:
+```
+alembic upgrade head
+```
 
 To run the FastAPI application:
 
