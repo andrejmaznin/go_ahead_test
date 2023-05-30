@@ -6,7 +6,7 @@ To install Python packages:
 poetry install
 ```
 
-The task has been solved using Python 3 and PostgreSQL, therefore, to test it PostgreSQL is required
+The task has been solved using Python 3 and PostgreSQL, therefore, to test it PostgreSQL is required <br>
 You can provide authentication data in the **.env** file (first create it) following the example from the **.env.example** file 
 
 To run the FastAPI application:
